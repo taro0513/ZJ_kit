@@ -19,7 +19,7 @@ class ZeroJudge:
     def test(self, code:str, language:str, problemid:str ,contestid:int = 0):
         ...
 
-    def solve(self, code:str, language:str, problemid:str ,contestid:int = 0):
+    def solve(self, code:str, language:str, problemid:str , action:str = 'SubmitCode', contestid:int = 0):
         ...
 
     def consult_code(self, solutionid:int, identify:int, data:str = 'Code' ):
